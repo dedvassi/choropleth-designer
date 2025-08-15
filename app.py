@@ -6,30 +6,8 @@ import math
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QAction, QColor
 from PyQt6.QtWidgets import (
-    QApplication,
-    QCheckBox,
-    QColorDialog,
-    QComboBox,
-    QFormLayout,
-    QGridLayout,
-    QGroupBox,
-    QHBoxLayout,
-    QHeaderView,
-    QLabel,
-    QLineEdit,
     QMainWindow,
-    QMessageBox,
-    QPushButton,
-    QFileDialog,
-    QSpinBox,
-    QDoubleSpinBox,
-    QSplitter,
-    QTableWidget,
     QTableWidgetItem,
-    QTabWidget,
-    QToolBar,
-    QVBoxLayout,
-    QWidget,
 )
 
 import pandas as pd
@@ -418,7 +396,6 @@ class ChoroplethApp(QMainWindow):
             # Обновляем UI
             self._update_style_ui()
 
-            # Update bins table
             self.ui.tbl_bins.setRowCount(0)
             for i, b in enumerate(self.bins):
                 self.ui.insert_bin_table_row(i)
@@ -426,14 +403,12 @@ class ChoroplethApp(QMainWindow):
                 self.ui.set_bin_table_item(i, 1, QTableWidgetItem(str(b.upper)))
                 self.ui.set_bin_table_item(i, 2, QTableWidgetItem(b.color_hex))
 
-            # Update exact values table
             self.ui.tbl_exact_values.setRowCount(0)
             for i, ev in enumerate(self.exact_values):
                 self.ui.insert_exact_table_row(i)
                 self.ui.set_exact_table_item(i, 0, QTableWidgetItem(str(ev.value)))
                 self.ui.set_exact_table_item(i, 1, QTableWidgetItem(ev.color_hex))
 
-            # Set correct radio button and stacked widget page
             if self.current_mode == "bins":
                 self.ui.get_radio_bins().setChecked(True)
                 self.ui.get_stacked_widget().setCurrentIndex(0)
@@ -447,6 +422,6 @@ class ChoroplethApp(QMainWindow):
         except Exception as e:
             self.ui.show_error_message("Ошибка загрузки", f"Не удалось загрузить схему:\n{e}")
 
-import matplotlib.pyplot as plt # Moved import here to avoid circular dependency with UI
+# import matplotlib.pyplot as plt
 
 
