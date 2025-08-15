@@ -1,0 +1,7 @@
+PyQt6
+geopandas
+pandas
+matplotlib
+shapely
+fiona
+pyproj
