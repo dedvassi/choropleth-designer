@@ -1,0 +1,72 @@
+Choropleth Designer — Source-Available Proprietary License
+=========================================================
+
+Copyright (c) 2025 dedvassi
+
+Русский версия / Russian version
+--------------------------------
+
+1. Авторские права
+Все исключительные права на программное обеспечение "Choropleth Designer" принадлежат автору.
+
+2. Доступ к исходному коду
+Исходный код данного проекта доступен для просмотра и изучения в открытом репозитории.
+Размещение кода в открытом доступе не означает отказа от авторских прав.
+
+3. Разрешённое использование
+- Вы можете просматривать и изучать код для личного обучения и ознакомления.
+- Вы можете запускать программное обеспечение на своём устройстве для личных или внутренних нужд.
+
+4. Запрещённые действия без письменного разрешения автора
+- Использование кода или программного обеспечения в коммерческих целях.
+- Модификация, перераспространение или размещение изменённых версий.
+- Встраивание кода в другие проекты.
+- Продажа или предоставление кода/ПО третьим лицам.
+- Размещение копий кода в других репозиториях или на сторонних ресурсах.
+
+5. Ограничение ответственности
+Программное обеспечение предоставляется "как есть". Автор не несёт ответственности за любой ущерб, возникший в результате его использования.
+
+6. Лицензирование и исключения
+Отдельные условия могут быть предоставлены автором по письменному соглашению, включая возможность коммерческого использования.
+
+Контакты автора:
+Email: dedvassi@gmail.com
+GitHub: https://github.com/dedvassi
+
+--------------------------------
+dedvassi, 2025
+
+English version
+------------------
+
+1. Copyright
+All exclusive rights to the software "Choropleth Designer" are reserved by the author.
+
+2. Source Code Access
+The source code of this project is available for viewing and study in an open repository.
+Making the code publicly available does not imply waiver of copyright.
+
+3. Permitted Use
+- You may view and study the code for personal learning and educational purposes.
+- You may run the software on your device for personal or internal use.
+
+4. Prohibited Actions Without Written Permission
+- Using the code or software for commercial purposes.
+- Modifying, redistributing, or publishing altered versions.
+- Embedding the code in other projects.
+- Selling or providing the code/software to third parties.
+- Posting copies of the code in other repositories or on external resources.
+
+5. Liability Limitation
+The software is provided "as is". The author is not responsible for any damage arising from its use.
+
+6. Licensing and Exceptions
+Separate conditions may be provided by the author through a written agreement, including the possibility of commercial use.
+
+Author Contact:
+Email: dedvassi@gmail.com
+GitHub: https://github.com/dedvassi
+
+--------------------------------
+dedvassi, 2025
